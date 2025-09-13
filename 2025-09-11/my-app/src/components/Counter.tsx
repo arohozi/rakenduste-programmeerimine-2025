@@ -8,9 +8,34 @@ function Counter(){
     return(
     <>
     <h1>Vite + React + Alina</h1>
+    <p>Count is {count}</p>
     <div className="card">
         <button onClick={() => increaseCounter(10)}>
-            count is {count}
+            Add 10
+        </button>
+        <button onClick={() => increaseCounter(100)}>
+            Add 100
+        </button>
+        <button onClick={() => increaseCounter(50)}>
+            Add 50
+        </button>
+        <button onClick={() => increaseCounter(25)}>
+            Add 25
+        </button>
+        <button onClick={() => increaseCounter(1)}>
+            Add 1
+        </button>
+        <button onClick={() => increaseCounter(-1)}>
+            Subtract 1
+        </button>
+        <button onClick={() => increaseCounter(-25)}>
+            Subtract 25
+        </button>
+        <button onClick={() => increaseCounter(-50)}>
+            Subtract 50
+        </button>
+        <button onClick={() => increaseCounter(-100)}>
+            Subtract 100
         </button>
     </div>
     </>

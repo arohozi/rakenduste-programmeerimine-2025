@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+.title {
+    text-align: center;
+}
+
+.list {
+    list-style: circle;
+    text-align: center;
+}
+
+.contactForm {
+    
+}
+
+.formGroup label {
+        display: block;
+        font-size: medium;
+        font-weight: 600;
+}
